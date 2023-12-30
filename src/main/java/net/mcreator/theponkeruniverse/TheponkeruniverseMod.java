@@ -29,6 +29,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.theponkeruniverse.init.TheponkeruniverseModTabs;
+import net.mcreator.theponkeruniverse.init.TheponkeruniverseModItems;
+import net.mcreator.theponkeruniverse.init.TheponkeruniverseModFeatures;
+import net.mcreator.theponkeruniverse.init.TheponkeruniverseModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,6 +51,13 @@ public class TheponkeruniverseMod {
 	public TheponkeruniverseMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		TheponkeruniverseModBlocks.REGISTRY.register(bus);
+
+		TheponkeruniverseModItems.REGISTRY.register(bus);
+
+		TheponkeruniverseModTabs.REGISTRY.register(bus);
+		TheponkeruniverseModFeatures.REGISTRY.register(bus);
 
 	}
 

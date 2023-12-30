@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "theponkeruniverse:ponkerium_ingot"
+    },
+    "1": {
+      "item": "theponkeruniverse:ponkerium_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "theponkeruniverse:ponkerium_sword",
+    "count": 1
+  }
+}

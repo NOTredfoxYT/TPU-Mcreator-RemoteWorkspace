@@ -1,1 +1,14 @@
-{}
+{
+  "item.theponkeruniverse.ponkerium_armor_boots": "Ponkerium Boots",
+  "block.theponkeruniverse.ponkerium_ore": "Ponkerium Ore",
+  "item.theponkeruniverse.ponkerium_armor_chestplate": "Ponkerium Chestplate",
+  "item.theponkeruniverse.ponkerium_pickaxe": "Ponkerium Pickaxe",
+  "item.theponkeruniverse.ponkerium_shovel": "Ponkerium Shovel",
+  "item.theponkeruniverse.ponkerium_axe": "Ponkerium Axe",
+  "item.theponkeruniverse.ponkerium_armor_helmet": "Ponkerium Helmet",
+  "item.theponkeruniverse.ponkerium_sword": "Ponkerium Sword",
+  "item.theponkeruniverse.ponkerium_armor_leggings": "Ponkerium Leggings",
+  "item.theponkeruniverse.ponkerium_ingot": "Ponkerium",
+  "item.theponkeruniverse.ponkerium_hoe": "Ponkerium Hoe",
+  "block.theponkeruniverse.ponkerium_block": "Block of Ponkerium"
+}

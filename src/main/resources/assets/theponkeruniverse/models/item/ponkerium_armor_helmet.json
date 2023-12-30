@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "theponkeruniverse:item/ponkerium_head"
+  }
+}

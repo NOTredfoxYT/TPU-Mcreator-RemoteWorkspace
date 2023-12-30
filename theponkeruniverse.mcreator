@@ -1,9 +1,295 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "PonkeriumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theponkeruniverse/item/PonkeriumIngotItem.java",
+          "src/main/resources/assets/theponkeruniverse/models/item/ponkerium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "PonkeriumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/theponkeruniverse/models/block/ponkerium_ore.json",
+          "src/main/resources/data/theponkeruniverse/forge/biome_modifier/ponkerium_ore_biome_modifier.json",
+          "src/main/resources/data/theponkeruniverse/worldgen/placed_feature/ponkerium_ore.json",
+          "src/main/resources/data/theponkeruniverse/worldgen/configured_feature/ponkerium_ore.json",
+          "src/main/java/net/mcreator/theponkeruniverse/block/PonkeriumOreBlock.java",
+          "src/main/resources/assets/theponkeruniverse/models/item/ponkerium_ore.json",
+          "src/main/java/net/mcreator/theponkeruniverse/world/features/ores/PonkeriumOreFeature.java",
+          "src/main/resources/assets/theponkeruniverse/blockstates/ponkerium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "PonkeriumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/theponkeruniverse/blockstates/ponkerium_block.json",
+          "src/main/resources/assets/theponkeruniverse/models/item/ponkerium_block.json",
+          "src/main/java/net/mcreator/theponkeruniverse/block/PonkeriumBlockBlock.java",
+          "src/main/resources/assets/theponkeruniverse/models/block/ponkerium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "PonkeriumOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/theponkeruniverse/recipes/ponkerium_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PonkeriumBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/theponkeruniverse/recipes/ponkerium_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PonkeriumOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/theponkeruniverse/recipes/ponkerium_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "PonkeriumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theponkeruniverse/item/PonkeriumPickaxeItem.java",
+          "src/main/resources/assets/theponkeruniverse/models/item/ponkerium_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "PonkeriumAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/theponkeruniverse/models/item/ponkerium_axe.json",
+          "src/main/java/net/mcreator/theponkeruniverse/item/PonkeriumAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PonkeriumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/theponkeruniverse/models/item/ponkerium_sword.json",
+          "src/main/java/net/mcreator/theponkeruniverse/item/PonkeriumSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PonkeriumShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/theponkeruniverse/models/item/ponkerium_shovel.json",
+          "src/main/java/net/mcreator/theponkeruniverse/item/PonkeriumShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PonkeriumHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theponkeruniverse/item/PonkeriumHoeItem.java",
+          "src/main/resources/assets/theponkeruniverse/models/item/ponkerium_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "PonkeriumPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/theponkeruniverse/recipes/ponkerium_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PonkeriumAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/theponkeruniverse/recipes/ponkerium_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PonkeriumSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/theponkeruniverse/recipes/ponkerium_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PonkeriumShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/theponkeruniverse/recipes/ponkerium_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PonkeriumHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/theponkeruniverse/recipes/ponkerium_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PonkeriumArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/theponkeruniverse/models/item/ponkerium_armor_leggings.json",
+          "src/main/resources/assets/theponkeruniverse/models/item/ponkerium_armor_helmet.json",
+          "src/main/resources/assets/theponkeruniverse/models/item/ponkerium_armor_boots.json",
+          "src/main/java/net/mcreator/theponkeruniverse/item/PonkeriumArmorItem.java",
+          "src/main/resources/assets/theponkeruniverse/models/item/ponkerium_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "PonkeriumArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/theponkeruniverse/recipes/ponkerium_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PonkeriumArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/theponkeruniverse/recipes/ponkerium_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PonkeriumArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/theponkeruniverse/recipes/ponkerium_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PonkeriumArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponkerium_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/theponkeruniverse/recipes/ponkerium_armor_boots_recipe.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.theponkeruniverse.ponkerium_armor_boots": "Ponkerium Boots",
+      "block.theponkeruniverse.ponkerium_ore": "Ponkerium Ore",
+      "item.theponkeruniverse.ponkerium_armor_chestplate": "Ponkerium Chestplate",
+      "item.theponkeruniverse.ponkerium_pickaxe": "Ponkerium Pickaxe",
+      "item.theponkeruniverse.ponkerium_shovel": "Ponkerium Shovel",
+      "item.theponkeruniverse.ponkerium_axe": "Ponkerium Axe",
+      "item.theponkeruniverse.ponkerium_armor_helmet": "Ponkerium Helmet",
+      "item.theponkeruniverse.ponkerium_sword": "Ponkerium Sword",
+      "item.theponkeruniverse.ponkerium_armor_leggings": "Ponkerium Leggings",
+      "item.theponkeruniverse.ponkerium_ingot": "Ponkerium",
+      "item.theponkeruniverse.ponkerium_hoe": "Ponkerium Hoe",
+      "block.theponkeruniverse.ponkerium_block": "Block of Ponkerium"
+    }
   },
   "foldersRoot": {
     "name": "~",

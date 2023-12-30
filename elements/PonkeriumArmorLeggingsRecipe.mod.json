@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PonkeriumIngot"
+      },
+      {
+        "value": "CUSTOM:PonkeriumIngot"
+      },
+      {
+        "value": "CUSTOM:PonkeriumIngot"
+      },
+      {
+        "value": "CUSTOM:PonkeriumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PonkeriumIngot"
+      },
+      {
+        "value": "CUSTOM:PonkeriumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PonkeriumIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PonkeriumArmor.legs"
+    },
+    "name": "ponkerium_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}
